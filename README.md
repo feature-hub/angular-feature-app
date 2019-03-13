@@ -1,6 +1,6 @@
 # Angular Feature App
 
-This repository is an example of an Angular Feature App.
+This repository shows a demo of an Angular Feature App.
 
 _Disclaimer: I am a React developer and have never set up an Angular application
 before. This project doesn't claim to be best practice, but should be enough to
