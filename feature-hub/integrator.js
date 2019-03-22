@@ -7,3 +7,12 @@ const {featureAppManager} = createFeatureHub('integrator', {
 });
 
 defineFeatureAppLoader(featureAppManager);
+
+document.body.appendChild(
+  Object.assign(document.createElement('style'), {
+    innerText: `
+      feature-app-loader > [slot='error'] {
+        display: initial;
+      }`
+  })
+);
